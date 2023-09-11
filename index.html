@@ -29,7 +29,7 @@
             <script>
                 function getCurrentTime() {
                     const time = new Date();
-                    return 'Time (UTC): ' + time.toLocaleTimeString();
+                    return 'Time(UTC): ' + time.getMilliseconds();
                 }
 
                 const  timeDisplay = document.getElementById("current-time");
